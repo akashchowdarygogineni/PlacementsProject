@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            padding: 15px;
+        }
+        .two{
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="display: flex;justify-content: center;align-items: center;background-color:lightgray;">
+    <table border="2" style="border-collapse:collapse;">
+          
+            <tr >
+                <th class="one">Pr</th>
+               <th class="one">Roll Number</th>
+               <th class="one ">Name of The Student</th>
+               <th class="one">Contact Number</th> 
+            </tr>
+            <tr>
+                <td class="two "><input class="checkbox" type="checkbox" onclick="shiv()" ondbclick="now()" ></td>
+                <td class="two prakash person" id="ram" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two "><input class="checkbox" type="checkbox" onclick="tarak ()" ></td>
+                <td class="two person" id="sri" style="background-color: red;">22PA1A4202</td>
+                <td class="two">ADABALA TARAK RAMA SRI SAI
+                </td>
+                <td class="two">6281604018
+                </td>
+            </tr>
+            <tr>
+                <td class="two checkbox"><input type="checkbox" onclick="allu()" ></td>
+                <td class="two ridheekshan person" id="ridheekshan" style="background-color: red;">22PA1A4203</td>
+                <td class="two">ALLU RIDHEEKSHAN
+                </td>
+                <td class="two">9490344788
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" onclick="amaravarapu()" ></td>
+                <td class="two swarup" style="background-color: red;">22PA1A4204</td>
+                <td class="two">AMARAVARAPU SWARUP
+                </td>
+                <td class="two">9000020314
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" onclick="amaresam()" ></td>
+                <td class="two ramanjaneyulu" style="background-color: red;">22PA1A4205</td>
+                <td class="two">AMARESAM RAMANJANEYULU
+                </td>
+                <td class="two">9849599200
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" onclick="azmeera()" ></td>
+                <td class="two badraji" style="background-color: red;">22PA1A4206</td>
+                <td class="two">AZMEERA BADRAJI
+                </td>
+                <td class="two">7386296279
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4207</td>
+                <td class="two">BANDARI PRABHAS
+                </td>
+                <td class="two">7032871262
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4208</td>
+                <td class="two">BANDARU TIRUMALA SUBRAHMANYAM
+                </td>
+                <td class="two">9652820839
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4209</td>
+                <td class="two">BANDI RAMA KRISHNA
+                </td>
+                <td class="two">9618548448
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4210</td>
+                <td class="two">BARATAM SAHITH
+                </td>
+                <td class="two">9949412458
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4211</td>
+                <td class="two">BATHULA ASHWINI
+                </td>
+                <td class="two">9010819552
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4212</td>
+                <td class="two">BAYYA VENKATA SUJAN AJITESH
+                </td>
+                <td class="two">6302654084
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4213</td>
+                <td class="two">BODA VIHAR
+                </td>
+                <td class="two">9347413972
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4214</td>
+                <td class="two">BODDAPATI RAVI
+                </td>
+                <td class="two">9010076453
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4215</td>
+                <td class="two">BOKKA TEENANJANI
+                </td>
+                <td class="two">9550015576
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4216</td>
+                <td class="two">BOTCHA GANESH
+                </td>
+                <td class="two">9652272405
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4217</td>
+                <td class="two">BUDDALA NIKHILESH
+                </td>
+                <td class="two">8309338138
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4218</td>
+                <td class="two">CHALLA PRUDHVI
+                </td>
+                <td class="two">8341781125
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4219</td>
+                <td class="two">CHALLAPALLI MARTIN JEEVA SAYER
+                </td>
+                <td class="two">7780367573
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4220</td>
+                <td class="two">CHANDHALA VENKATA TIRUPATHI VARA PRASAD
+                </td>
+                <td class="two">7013660304
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4221</td>
+                <td class="two">CHEBOLU HARI GOPAL
+                </td>
+                <td class="two">8639504182
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4222</td>
+                <td class="two">CHEGONDI SUDHEER KUMAR
+                </td>
+                <td class="two">7780491304
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4223</td>
+                <td class="two">CHINNI ANUSHA
+                </td>
+                <td class="two">6302893974
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4224</td>
+                <td class="two">CHINTA SHANMUKHA SURYANARAYAN
+                </td>
+                <td class="two">7400112133
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4225</td>
+                <td class="two">CHIRITHOTI ANU SRI HARSHINI
+                </td>
+                <td class="two">8074257773
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4226</td>
+                <td class="two">CHITIKELA JISHNU VENKATA SIDDHARTHA
+                </td>
+                <td class="two">9014081320
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4227</td>
+                <td class="two">DATTI HARSHA VARDHAN
+                </td>
+                <td class="two">8367573514
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4228</td>
+                <td class="two">DESABOINA MAHESH
+                </td>
+                <td class="two">8106485697
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4229</td>
+                <td class="two">DEVARAPUDI GANGA BHAVANI
+                </td>
+                <td class="two">9346704270
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4230</td>
+                <td class="two">DEVIREDDY JAHNAVI
+                </td>
+                <td class="two">9553292279
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4231</td>
+                <td class="two">DEVISETTI SAI PAVAN KUMAR
+                </td>
+                <td class="two">9059774028
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4232</td>
+                <td class="two">DWARAMPUDI GNANA PHANINDRA NAGI REDDY
+                </td>
+                <td class="two">8367597760
+                </td>
+            </tr>
+
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4233</td>
+                <td class="two">DWARAMPUDI VENKATA REDDY
+                </td>
+                <td class="two">8985975333
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4234</td>
+                <td class="two">GADI SINDHU NAIDU
+                </td>
+                <td class="two">8688074233
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4235</td>
+                <td class="two">GADIRAJU SAI RAMANJANEYA VARMA
+                </td>
+                <td class="two">9391822977
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4236</td>
+                <td class="two">GIDLA RAJANI
+                </td>
+                <td class="two">9014648644
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4237</td>
+                <td class="two">GIRIDHA SRI MEGHANA VARDHANAPU
+                </td>
+                <td class="two">7731959595
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4238</td>
+                <td class="two">GODI NAGA LAKSHMI
+                </td>
+                <td class="two">9951013432
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4239</td>
+                <td class="two">GOLI VENKATA SAI MANJUNATH
+                </td>
+                <td class="two">9866995456
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4240</td>
+                <td class="two">GOLLA ASREETHA SREEJA
+                </td>
+                <td class="two">7670868993
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4241</td>
+                <td class="two">GONNABATTULA LIKHITA
+                </td>
+                <td class="two">8185990208
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4242</td>
+                <td class="two">GOPISETTI NAGA VENKATA SAI NEELESH
+                </td>
+                <td class="two">7399441166
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4243</td>
+                <td class="two">GOTETI VEERA VENKATA SAI PAVAN
+                </td>
+                <td class="two">9182789496
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4244</td>
+                <td class="two">GUDALA LAKSHMI SRI NAGA GANESH
+                </td>
+                <td class="two">7036970892
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4245</td>
+                <td class="two">JAMANA UPENDRA
+                </td>
+                <td class="two">8179915753
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4246</td>
+                <td class="two">KADURLA YASODHA
+                </td>
+                <td class="two">6301704996
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4247</td>
+                <td class="two">KALLA SAI VINAY
+                </td>
+                <td class="two">9347228096
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4248</td>
+                <td class="two">KAMUJU AKSHAY RAM
+                </td>
+                <td class="two">8328152496
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4249</td>
+                <td class="two">KANAKALA ASHISH SATYA SURYA RAM
+                </td>
+                <td class="two">9666609577
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4250</td>
+                <td class="two">KARAGANI SRI KOUSHIK
+                </td>
+                <td class="two">7670846606
+                </td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" onclick="right()"></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+            <tr>
+                <td class="two"><input type="checkbox" ></td>
+                <td class="two" style="background-color: red;">22PA1A4201</td>
+                <td class="two">ACHANTA NAGESHBABU</td>
+                <td class="two">8639885628</td>
+            </tr>
+           <script>
+            //    function shiv(){
+            //       document.getElementById('ram').style.backgroundColor="green";
+            //    }
+            //    function office(){
+            //       document.getElementsByClassName('prakash').style.backgroundColor="yellow";
+            //    }
+            //    function tarak(){
+            //       document.getElementById('sri').style.backgroundColor="green";
+            //    }
+            //    function allu(){
+            //       document.getElementById('ridheekshan').style.backgroundColor="green";
+            //    }
+            //    function amaravarapu(){
+            //       document.getElementById('swarup').style.backgroundColor="green";
+            //    }
+            const checkboxes = document.getElementsByClassName("checkbox");
+            const persons = document.getElementsByClassName("person");
+
+            Array.from(checkboxes).forEach((checkbox, index) => {
+                checkbox.addEventListener("click", () => {
+                    change(index);
+                });
+            });
+
+            function change(index) {
+                const isChecked = checkboxes[index].checked;
+                persons[index].style.backgroundColor = isChecked ? "green" : "red";
+            }
+           </script>
+                    
+        
+    </table>
+</body>
+</html>

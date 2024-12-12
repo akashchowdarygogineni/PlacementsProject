@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .person {
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="checkbox" class="checkbox"> Person 1
+        <div class="person">Person 1 Status</div>
+    </div>
+    <div>
+        <input type="checkbox" class="checkbox"> Person 2
+        <div class="person">Person 2 Status</div>
+    </div>
+
+    <script>
+        const checkboxes = document.getElementsByClassName("checkbox");
+        const persons = document.getElementsByClassName("person");
+
+        Array.from(checkboxes).forEach((checkbox, index) => {
+            checkbox.addEventListener("click", () => {
+                change(index);
+            });
+        });
+
+        function change(index) {
+            const isChecked = checkboxes[index].checked;
+            persons[index].style.backgroundColor = isChecked ? "green" : "red";
+        }
+    </script>
+</body>
+</html>

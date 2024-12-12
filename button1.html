@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        tr.selected{
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <input type="checkbox" class="my-checkbox" />
+<input type="checkbox" class="my-checkbox" />
+<input type="checkbox" class="my-checkbox" />
+<p>Selected Count: <span id="selected-count">0</span></p>
+
+    <table border="1" style="border-collapse: collapse;">
+        <tr >
+            <th>s</th>
+            <th>roll number</th>
+            <th>name</th>
+
+        </tr>
+        <tr style="color: red;">
+            <td><input type="checkbox"></td>
+            <td>22pa1a4201</td>
+            <td>name 1</td>
+        </tr>
+        <tr>
+            <td><input type="checkbox"></td>
+            <td>22pa1a4202</td>
+            <td>name 2</td>
+        </tr>
+
+    </table>
+    <script>
+        // Get all the checkboxes
+const checkboxe = document.querySelectorAll("input[type='checkbox']");
+
+checkboxes.forEach((checkbox) => {
+  checkbox.addEventListener("change", function () {
+    const row = this.parentNode.parentNode; // Get the parent row
+
+    if (this.checked) {
+      row.classList.add("selected"); // Add the selected class
+    } else {
+      row.classList.remove("selected"); // Remove the selected class
+    }
+  });
+});
+const checkboxes = document.querySelectorAll(".my-checkbox");
+const selectedCount = document.getElementById("selected-count");
+
+checkboxes.forEach(checkbox => {
+  checkbox.addEventListener("change", () => {
+    let count = 0;
+    checkboxes.forEach(cb => {
+      if (cb.checked) {
+        count++;
+      }
+    });
+    selectedCount.textContent = count;
+  });
+});
+let checkboxCount = 0; 
+
+const myCheckbox = document.getElementById("myCheckbox"); 
+
+myCheckbox.addEventListener("click", function() {
+  if (this.checked) {
+    checkboxCount++; 
+    console.log("Checkbox selected " + checkboxCount + " times"); 
+  }
+});
+
+
+
+// Call this function whenever a checkbox selection changes
+
+// (you can use the 'change' event on the checkbox element) [3, 6]
+    </script>
+</body>
+</html>
